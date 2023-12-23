@@ -29,5 +29,15 @@ Interface (Data visualization for the user)
 
 ![image](https://github.com/rodrigoguedes09/Federated_Learning_Stress_Detector/assets/61996985/0276c8d6-e177-40c2-a3da-93929ff250dc)
 
+The visualization of the data obtained from the ESP32 is displayed in a graph, allowing the user to analyze and have a comprehensive view of their data.
+
+
+
+# Conclusions
+
+In general, the obtained results were positive; the developed system fulfills its objectives and requirements, except for functional requirements 2 and 3, and is user-friendly. User privacy can be preserved while still benefiting from machine learning possibilities due to the use of federated learning. The user remains the sole owner of their data and can save it wherever they want by keeping the generated TinyDB database file.
+
+For future work, three changes are anticipated: (i) replacing WiFi communication via a router between the client and the data collector with Bluetooth or BLE, (ii) performing local training and federated learning directly on the ESP32, using other technologies or developing a new library, (iii) implementing the interface on mobile devices, such as a Progressive Web App (PWA) or natively on Android or iOS devices.
+
 
 
